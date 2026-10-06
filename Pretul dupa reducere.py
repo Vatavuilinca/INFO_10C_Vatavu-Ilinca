@@ -1,0 +1,5 @@
+Pret_initial=float(input('Pretul ?: '))
+Reducere=int(input('Reducerea %: '))
+Pret_final=Pret_initial*(Reducere/Pret_initial)
+print(f'Spre achitare {Pret_final:.2f} lei')
+print(f'Economie {Pret_initial:.2f} lei, Reducerea {Reducere:.2f} lei, Pretul final {Pret_final:.2f} lei')
