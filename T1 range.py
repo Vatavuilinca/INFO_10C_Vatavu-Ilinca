@@ -1,0 +1,5 @@
+r = range(10, 21, 1)
+print(list(r))
+print(10 in r)
+print(20 in r)
+print(21 in r)
