@@ -1,0 +1,6 @@
+a:int=int(input("a="))
+b:int=int(input("b="))
+x:int=int(input("x="))
+Locuri=range(a,b+1)  
+print(x in Locuri)      
+print(len(Locuri))

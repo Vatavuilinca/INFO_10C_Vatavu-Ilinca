@@ -1,0 +1,6 @@
+a:int=int(input("a="))
+b:int=int(input("b="))
+r=range(a,b+1,2)
+x:int=int(input("x="))
+print(list(r))
+print(x in r)
